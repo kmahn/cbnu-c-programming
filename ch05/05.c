@@ -1,5 +1,5 @@
 /*
-* Chapter 4.
+* Chapter 5.
 * 실습 예제 5. XOR를 이용한 암호화 프로그램
 */
 #include <stdio.h>
