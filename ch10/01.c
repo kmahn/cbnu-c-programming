@@ -11,11 +11,11 @@ int roll();  // 주사위를 굴림(나온 숫자 리턴 0 ~ 5 -> 1 ~ 6)
 void print_count(const int[]); // 나온 숫자별로 카운팅된 배열 출력
 
 int main() {
-	int i, n, count_face[6] = { 0 };
-
+	int i, n;
 	srand((unsigned)time(NULL)); // 매 실행마다 다른 난수열 생성
 
 	while ((n = input()) > 0) {
+		int count_face[6] = { 0 };
 		for (i = 0; i < n; i++) {
 			count_face[roll()]++;
 		}
